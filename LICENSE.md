@@ -1,6 +1,8 @@
 The MIT License (MIT)
 
-Copyright (c) 2014 Dmitriy Slupytskyi
+Copyright (c) 2014 John Otander
+Copyright (c) 2014–2018 Dmitriy Slupytskyi
+Copyright (c) 2018 Peter Lindberg
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

@@ -1,12 +1,15 @@
 {{ partial "head.html" . }}
+
 <div class="site-wrap">
     {{ partial "header.html" . }}
-    {{ if isset .Site.Params "description" }}
-    <meta name="description" content="{{ .Site.Params.description }}">
-    {{ end }}
-    <div class="post p2 p-responsive wrap" role="main">
+
+    <div class="p2 p-responsive wrap" role="main">
         <div class="measure">
             <div class="home">
+                <div class=firstpage-content>
+                  {{ .Content }}
+                </div>
+
                 <div class="posts">
                     {{ if isset .Site.Params "paginate" }}
                         {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}

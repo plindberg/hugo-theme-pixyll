@@ -67,7 +67,7 @@ body {
   color: #666;
 }
 
-.site-header nav a:hover {
+.site-nav a:hover {
   color: #444;
   opacity: 1;
   border-bottom: 2px solid #444;

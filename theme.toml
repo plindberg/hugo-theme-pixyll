@@ -1,7 +1,7 @@
-name = "pixyll"
-description = "A simple, beautiful theme for Hugo."
-author = "Dmitriy Slupytskyi"
+name = "Repix"
+description = "Another Hugo theme."
+author = "Peter Lindberg"
 license = "MIT"
-source_repo = "https://github.com/azmelanar/hugo-theme-pixyll"
-tags = ["blog", "personal"]
-min_version = 0.14
+source_repo = "https://github.com/plindberg/repix"
+tags = ["simple", "personal"]
+min_version = 0.40
