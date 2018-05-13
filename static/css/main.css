@@ -14,7 +14,11 @@
 */
 
 body {
-  font-family: "Ubuntu", "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+html {
+  font-size: 0.9em;
 }
 
 html, body {
@@ -131,7 +135,7 @@ body {
 .pagination,
 .button {
   font-size: 1rem;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   text-align: center;
 }
@@ -205,7 +209,7 @@ textarea.input {
 
 p {
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.8;
   color: #333;
 }
 
@@ -260,7 +264,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 900;
   line-height: 1.2;
   margin: 0.414em 0 0.5em;
@@ -293,38 +297,6 @@ h6,
   .post-meta {
     margin: 0;
     padding: 0;
-    font-size: 1.25rem;
-  }
-
-  .h1,
-  h1 {
-    font-size: 3.250rem;
-  }
-
-  .h2,
-  h2 {
-    font-size: 2.298rem;
-  }
-
-  .h3,
-  h3 {
-    font-size: 1.625rem;
-  }
-
-  .h4,
-  h4 {
-    font-size: 1.150rem;
-  }
-
-  .p,
-  p,
-  li {
-    font-size: 1.25rem;
-    line-height: 1.8;
-  }
-
-  .small {
-    font-size: 1rem;
   }
 
   .post-link .post-title {
@@ -345,26 +317,6 @@ h6,
 }
 
 @media screen and (max-width: 48em) {
-  .h1,
-  h1 {
-    font-size: 2.827rem;
-  }
-
-  .h2,
-  h2 {
-    font-size: 1.999rem;
-  }
-
-  .h3,
-  h3 {
-    font-size: 1.413rem;
-  }
-
-  .h4,
-  h4 {
-    font-size: 1rem;
-  }
-
   .site-header {
     text-align: center;
   }
@@ -388,26 +340,6 @@ h6,
 }
 
 @media screen and (min-width: 64em) {
-  .h1,
-  h1 {
-    font-size: 3.5rem;
-  }
-
-  .h2,
-  h2 {
-    font-size: 3rem;
-  }
-
-  .h3,
-  h3 {
-    font-size: 2.249rem;
-  }
-
-  .h4,
-  h4 {
-    font-size: 1.591rem;
-  }
-
   .posts .post-meta .post-author {
     padding-bottom: .2em;
   }
@@ -437,7 +369,7 @@ footer,
 footer .wrap {
   color: #7a7a7a;
   background-color: #fafafa;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   clear: both;
 }
@@ -555,7 +487,7 @@ Copyright (c) 2014 Daniel Eden
   border-radius: 4px;
   color: #fff;
   display: block;
-  font-family: lato;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 900;
   line-height: 17px;
@@ -583,7 +515,7 @@ Copyright (c) 2014 Daniel Eden
 .p_arrow{}
 .p_arrow i{
   display: block;
-  font-family: lato;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 900;
